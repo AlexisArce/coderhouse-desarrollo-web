@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Roboto:wght@300;400;700&display=swap");
 
 * {
   margin: 0;
@@ -6,28 +6,29 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
 }
 
 #logo {
-  width: 120px;
-  min-height: 120px;
+  min-height: 90px;
+  width: 150px;
   padding-left: 10%;
+  box-sizing: border-box;
 }
 
 #header {
-  min-height: 100px;
+  align-items: center;
   display: flex;
   flex-direction: row;
-  align-items: center;
+  min-height: 90px;
   opacity: 95%;
 }
 
 #mainNav {
-  list-style: none;
   flex-grow: 1;
-  text-align: right;
+  list-style: none;
+  text-align: center;
 }
 
 #mainNav ul li {
@@ -37,14 +38,14 @@ body {
 
 #mainNav ul li a {
   text-decoration: none;
-  font-size: 18px;
-  color: black;
+  font-size: 16px;
+  color: darkgreen;
 }
 
 #mainNav a:hover,
 #mainNav .active > a,
 #mainNav li:hover > a {
-  color: #208b44;
+  color: #14bd4c;
   text-decoration: none;
 }
 
@@ -53,7 +54,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  /*opacity: 80%;*/
 }
 
 #home .content {
@@ -78,17 +78,18 @@ body {
 }
 
 #footer {
-  display: flex;
-  flex-direction: row;
+  align-items: center;
   text-align: center;
   list-style: none;
+  padding: 1em;
 }
 
 #footer ul li {
   display: inline-block;
+  padding-right: 1em;
 }
 
 #footer ul li a {
   text-decoration: none;
-  font-size: 18px;
+  font-size: 24px;
 }
