@@ -37,9 +37,9 @@ body {
 }
 
 #mainNav ul li a {
+  color: darkgreen;
   text-decoration: none;
   font-size: 16px;
-  color: darkgreen;
 }
 
 #mainNav a:hover,
@@ -57,16 +57,16 @@ body {
 }
 
 #home .content {
-  font-size: 18px;
-  color: white;
-  min-height: 100vh;
   background-color: black;
+  color: white;
+  font-size: 18px;
+  min-height: 100vh;
   opacity: 60%;
 }
 
 #presentation {
-  text-align: center;
   align-items: center;
+  text-align: center;
   width: 100%;
   min-height: 100%;
   position: absolute;
@@ -90,6 +90,7 @@ body {
 }
 
 #footer ul li a {
-  text-decoration: none;
+  color: darkgreen;
   font-size: 24px;
+  text-decoration: none;
 }
