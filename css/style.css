@@ -1,4 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
 #logo {
   width: 120px;
-  height: 120px;
+  min-height: 120px;
+  padding-left: 10%;
+}
+
+#header {
+  min-height: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  opacity: 95%;
+}
+
+#mainNav {
+  list-style: none;
+  flex-grow: 1;
+  text-align: right;
+}
+
+#mainNav ul li {
+  display: inline-block;
+  padding-right: 2em;
+}
+
+#mainNav ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+}
+
+#mainNav a:hover,
+#mainNav .active > a,
+#mainNav li:hover > a {
+  color: #208b44;
+  text-decoration: none;
+}
+
+#home {
+  background-image: url(../media/images/fondo-min.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /*opacity: 80%;*/
+}
+
+#home .content {
+  font-size: 18px;
+  color: white;
+  min-height: 100vh;
+  background-color: black;
+  opacity: 60%;
+}
+
+#presentation {
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100%;
+  position: absolute;
+}
+
+#presentation h1 {
+  padding-top: 2em;
+  padding-bottom: 1em;
+}
+
+#footer {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  list-style: none;
+}
+
+#footer ul li {
+  display: inline-block;
+}
+
+#footer ul li a {
+  text-decoration: none;
+  font-size: 18px;
 }
