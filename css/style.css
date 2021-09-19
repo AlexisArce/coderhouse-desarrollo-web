@@ -40,6 +40,7 @@ body {
   color: darkgreen;
   text-decoration: none;
   font-size: 16px;
+  font-weight: 500;
 }
 
 #mainNav a:hover,
@@ -102,6 +103,7 @@ h1 {
 
 h2 {
   padding-top: 1em;
+  padding-bottom: 1em;
   margin: 1em;
   color: darkgreen;
   text-align: center;
@@ -129,7 +131,7 @@ h2 {
 }
 
 .description {
-  margin: 3em;
+  margin: 2em;
   text-align: center;
 }
 
