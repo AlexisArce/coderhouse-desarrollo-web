@@ -176,3 +176,28 @@ h2 {
 .card-description {
   font-size: 0.9em;
 }
+
+#servicios-container {
+  display: grid;
+  grid-template-columns: repeat(5, 20%);
+  grid-template-rows: auto;
+  margin: 3em 3em 5em 6em;
+  align-items: center;
+  text-align: center;
+}
+
+.servicio-item {
+  height: 100px;
+  width: 100px;
+  margin-bottom: 2em;
+}
+
+.servicio-item img {
+  height: 90px;
+  width: 95px;
+}
+
+.servicio-item span {
+  font-size: 0.8em;
+  margin-bottom: 0.5em;
+}
