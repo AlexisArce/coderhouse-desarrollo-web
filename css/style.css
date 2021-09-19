@@ -96,11 +96,16 @@ body {
   text-decoration: none;
 }
 
+h1 {
+  font-size: 3em;
+}
+
 h2 {
   padding-top: 1em;
-  margin: 2em;
+  margin: 1em;
   color: darkgreen;
   text-align: center;
+  font-size: 2em;
 }
 
 #contact {
@@ -128,6 +133,44 @@ h2 {
   text-align: center;
 }
 
-.description p {
-  margin-bottom: 1em;
+#cards-container {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.card {
+  width: 50%;
+  align-items: center;
+  margin-left: 2em;
+  opacity: 80%;
+}
+
+.card img {
+  text-align: center;
+  border-radius: 6px;
+  width: 90%;
+  height: 250px;
+  background-color: black;
+}
+
+.card-title {
+  width: 40%;
+  padding-top: 100px;
+  text-align: center;
+  font-size: 1.5em;
+  position: absolute;
+  color: white;
+}
+
+.card-body {
+  width: 80%;
+}
+
+.card-body h4 {
+  margin: 0.5em 0 0.5em 0;
+}
+
+.card-description {
+  font-size: 0.9em;
 }
