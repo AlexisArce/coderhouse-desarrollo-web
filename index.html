@@ -3,85 +3,103 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />    
-    <link rel="icon" type="image/png" sizes="32x32" href="./media/images/favicon/favicon-32x32.png">            
+    <link rel="icon" type="image/png" sizes="32x32" href="./media/images/favicon/favicon-32x32.png">     
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">           
     <link rel="stylesheet" href="css/style.css" />       
     <title>Bulldog co-working</title>
   </head>
-  <body>
-    <div id="header">      
-      <div class="logo">
-        <a href="index.html" title="bulldog co-working">
-          <img id="logo" src="./media/images/logo.jpg" alt="bulldog co-working" />
-        </a>
-      </div>      
-      <div id="mainNav">        
-        <ul>          
-          <li><a href="index.html">Inicio</a></li>
-          <li><a href="#planes">Planes</a></li>
-          <li><a href="#servicios">Servicios</a></li>
-          <li><a href="#galeria">Galería</a></li>          
-          <li><a href="./contact.html#contact">Contacto</a></li>
-          <li>
-            <a href="https://www.facebook.com/bulldogcoworking" target="_blank">
-              <i class="fa fa-facebook"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com/bulldogcoworking" target="_blank">
-              <i class="fa fa-instagram"></i>
-            </a>
-          </li>    
-        </ul>
-      </div>
-    </div>
-    <div id="main">
-      <div id="home" class="section">
-        <div class="content">
+  <body>         
+    <div id="main" class="container">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html" title="bulldog co-working">
+            <img id="logo" src="./media/images/logo.jpg" alt="bulldog co-working" />
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-center">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#planes">Planes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#servicios">Servicios</a>
+              </li> 
+              <li class="nav-item">
+                <a class="nav-link" href="#galeria">Galería</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contact.html#contact">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.facebook.com/bulldogcoworking" target="_blank">
+                  <i class="fa fa-facebook"></i>
+                </a>
+              </li> 
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.instagram.com/bulldogcoworking" target="_blank">
+                  <i class="fa fa-instagram"></i>
+                </a>
+              </li>             
+            </ul>          
+          </div>
+        </div>
+      </nav>    
+      <div id="home" class="row">
+        <div class="content col">
           <div id="presentation">
             <h1>bulldog co-working</h1>
             <p>¡Hola somos bulldog espacios de oficina!</p>
-            <p>Encontrá tu lugar de trabajo y desarrollá tu negocio.</p>
-            <p>Full amenities.</p>
-            <p>San Miguel centro.</p>
+            <p>Encontrá tu lugar de trabajo y desarrollá tu negocio</p>
+            <p>Full amenities</p>
+            <p>San Miguel centro</p>
             <p>Lunes a viernes 9-18 hs.</p>            
           </div>          
         </div>
       </div>
-      <div id="planes" class="section">
-        <h2>Planes</h2>
-        <div class="description">
-          <p>Mediante nuestra propuesta integral de valor, las empresas encuentran el complemento perfecto a la</p>
-          <p>necesidad de espacios físicos y a las soluciones de trabajo remoto, para optimizar al 100% la necesidad</p>
-          <p>de espacios y el uso de sus oficinas flexibles.</p>
-        </div>
-        <div id="cards-container">
-          <div id="card-plan-corporate" class="card">  
-             <div class="card-title">
-              <h3>CORPORATE</h3>
-            </div>                    
-            <img src="./media/images/planes_corporate.webp" alt="plan Corporate" />
-            <div class="card-body">
-              <h4>ARMÁ TU PROPIO ESPACIO PERSONALIZADO</h4>
-              <p class="card-description">
-                Accedé a un espacio de trabajo propio, diseñado a medida exclusivamente para tu empresa y su marca, con flexibilidad de contratación y sin inversión inicial.
-              </p>
-            </div>                                   
-          </div>
-          <div id="card-plan-oficina" class="card">         
-            <div class="card-title">
-              <h3>OFFICE</h3>
-            </div>               
-            <img src="./media/images/planes_oficina.webp" alt="plan Oficina" />
-            <div class="card-body">
-              <h4>OFICINAS LISTAS PARA USAR</h4>
-              <p class="card-description">
-                Accedé a oficinas de diversos tamaños por plazos breves, permitiendo la expansión y contracción de estructuras de un modo ágil y a demanda, pagando sólo por las posiciones en uso.
-              </p>
-            </div>                                      
-          </div>
-        </div>
+      <div id="planes" class="row">
+        <div class="col-12">
+            <div class="row">
+              <div class="col-12">
+                <h2>Planes</h2>
+                <div class="description">
+                  <p>Mediante nuestra propuesta integral de valor, las empresas encuentran el complemento perfecto a la</p>
+                  <p>necesidad de espacios físicos y a las soluciones de trabajo remoto, para optimizar al 100% la necesidad</p>
+                  <p>de espacios y el uso de sus oficinas flexibles.</p>
+                </div>
+              </div>
+            </div>            
+            <div class="row">
+              <div class="col-6">
+                <div id="card-plan-corporate" class="card">                                
+                  <img src="./media/images/planes_corporate.webp" class="card-img-top" alt="plan Corporate" />
+                  <div class="card-body">
+                    <h5 class="card-title">Corporativo</h5>
+                    <p class="card-text">
+                      Accedé a un espacio de trabajo propio, diseñado a medida exclusivamente para tu empresa y su marca, con flexibilidad de contratación y sin inversión inicial.
+                    </p>
+                  </div>                                   
+                </div>
+              </div>
+              <div class="col-6">
+                <div id="card-plan-oficina" class="card">                       
+                  <img src="./media/images/planes_oficina.webp" class="card-img-top" alt="plan Oficina" />
+                  <div class="card-body">
+                    <h5 class="card-title">Oficinas listas para usar</h5>
+                    <p class="card-text">
+                      Accedé a oficinas de diversos tamaños por plazos breves, permitiendo la expansión y contracción de estructuras de un modo ágil, pagando sólo por las posiciones en uso.
+                    </p>
+                  </div>                                      
+                </div>
+              </div>                            
+            </div>
+        </div>       
       </div>
-      <div id="servicios" class="section">
+      <div id="servicios" class="row">
         <h2>Servicios incluídos en las membresías</h2>
         <div id="servicios-container">
             <div class="servicio-item"><img loading="lazy" src="./media/images/servicios/2 Acceso 24-7.webp" alt="Acceso 24/7"><span>Acceso 24/7</span></n></div>
@@ -102,7 +120,7 @@
         </div>
       </div>
       </div>
-      <div id="galeria" class="section">
+      <div id="galeria" class="row">
         <h2>Galería de fotos</h2>
         <div id="galeria-container">
             <div class="galeria-item"><img loading="lazy" src="./media/images/galeria/1.jpg" alt=""></div>
@@ -112,20 +130,10 @@
             <div class="galeria-item"><img loading="lazy" src="./media/images/galeria/11.jpg" alt=""></div>
             <div class="galeria-item"><img loading="lazy" src="./media/images/galeria/6.jpg" alt=""></div>
             <div class="galeria-item"><img loading="lazy" src="./media/images/galeria/7.jpg" alt=""></div>
-            <div class="galeria-item"><img loading="lazy" src="./media/images/galeria/8.jpg" alt=""></div>
-            <!--
-            <div class="galeria-item"><img loading="lazy" src="./media/images/galeria/9.jpg" alt=""></div>
-            <div class="galeria-item"><img loading="lazy" src="./media/images/galeria/19.jpg" alt=""></div>
-            <div class="galeria-item"><img loading="lazy" src="./media/images/galeria/5.jpg" alt=""></div>
-            <div class="galeria-item"><img loading="lazy" src="./media/images/galeria/18.jpg" alt=""></div>
-            <div class="galeria-item"><img loading="lazy" src="./media/images/galeria/13.jpg" alt=""></div>
-            <div class="galeria-item"><img loading="lazy" src="./media/images/galeria/14.jpg" alt=""></div>
-            <div class="galeria-item"><img loading="lazy" src="./media/images/galeria/15.jpg" alt=""></div> 
-            <div class="galeria-item"><img loading="lazy" src="./media/images/galeria/16.jpg" alt=""></div>
-            -->
+            <div class="galeria-item"><img loading="lazy" src="./media/images/galeria/8.jpg" alt=""></div>           
         </div>
       </div>            
-      <div id="footer">
+      <div id="footer" class="row">
         <ul>
           <li>
             <a href="https://www.facebook.com/bulldogcoworking" target="_blank">
@@ -139,7 +147,8 @@
           </li>          
         </ul>
       </div>
-    </div>
+    </div>    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/63a845fea5.js" crossorigin="anonymous"></script> 
   </body>
 </html>
