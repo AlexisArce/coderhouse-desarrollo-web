@@ -136,6 +136,10 @@ h2 {
   font-size: 0.9em;
 }
 
+#contactanos {
+  padding-top: 0.2em;
+}
+
 #btnSendEmail {
   background-color: darkgreen;
   color: white;
