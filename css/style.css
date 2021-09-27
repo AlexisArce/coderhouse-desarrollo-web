@@ -16,37 +16,10 @@ body {
 }
 
 #logo {
-  height: 100px;
-  width: 120px;
+  height: 90px;
+  width: 108px;
   padding-left: 10%;
   box-sizing: border-box;
-}
-
-/*
-#header {
-  align-items: center;
-  display: flex;
-  flex-direction: row;
-  min-height: 90px;
-  opacity: 95%;
-}
-
-#mainNav {
-  flex-grow: 1;
-  list-style: none;
-  text-align: center;
-}
-
-#mainNav ul li {
-  display: inline-block;
-  padding-right: 2em;
-}
-
-#mainNav ul li a {
-  color: darkgreen;
-  text-decoration: none;
-  font-size: 16px;
-  font-weight: 500;
 }
 
 #mainNav a:hover,
@@ -55,7 +28,6 @@ body {
   color: #14bd4c;
   text-decoration: none;
 }
-*/
 
 #home {
   background-image: url(../media/images/fondo-min.jpg);
@@ -81,11 +53,6 @@ body {
   position: absolute;
 }
 
-#presentation h1 {
-  padding-top: 3em;
-  padding-bottom: 1em;
-}
-
 #footer {
   align-items: center;
   text-align: center;
@@ -107,81 +74,20 @@ body {
 
 h1 {
   font-size: 3em;
+  padding-top: 4em;
 }
 
 h2 {
-  padding-top: 1em;
+  padding-top: 0.8em;
   margin: 1em;
   color: darkslategray;
   text-align: center;
   font-size: 2em;
 }
 
-#contact {
-  color: darkgreen;
-  display: grid;
-  font-size: 14px;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: auto;
+#main {
+  margin-top: 5em;
 }
-
-#map {
-  text-align: center;
-}
-
-.contactInformation {
-  margin-bottom: 3em;
-}
-
-.contactInformation > div {
-  margin-bottom: 0.5em;
-}
-
-.description {
-  margin: 2em;
-  text-align: center;
-}
-
-/*
-#cards-container {
-  align-items: center;
-  text-align: center;
-  display: flex;
-  flex-direction: row;
-}
-
-.card {
-  width: 50%;
-  opacity: 80%;
-  height: 450px;
-}
-
-.card img {
-  text-align: center;
-  border-radius: 6px;
-  width: 95%;
-  height: 250px;
-  background-color: black;
-}
-
-.card-title {
-  width: 50%;
-  padding-top: 100px;
-  text-align: center;
-  font-size: 1.5em;
-  position: absolute;
-  color: white;
-}
-
-.card-body h4 {
-  margin: 0.8em 2em 0.8em;
-}
-
-.card-description {
-  font-size: 0.85em;
-  margin: 1em 2em 1em;
-}
-*/
 
 #servicios-container {
   display: grid;
@@ -221,4 +127,8 @@ h2 {
   max-width: 500px;
   background-color: black;
   opacity: 80%;
+}
+
+.contacto {
+  font-size: 0.9em;
 }

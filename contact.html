@@ -19,121 +19,152 @@
     <title>Bulldog co-working</title>
   </head>
   <body>
-    <div id="header">
-      <div class="logo">
-        <a href="./index.html" title="bulldog co-working">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html" title="bulldog co-working">
           <img
             id="logo"
             src="./media/images/logo.jpg"
             alt="bulldog co-working"
           />
         </a>
-      </div>
-      <div id="mainNav">
-        <ul>
-          <li><a href="./index.html">Inicio</a></li>
-          <li><a href="./index.html#planes">Planes</a></li>
-          <li><a href="./index.html#servicios">Servicios</a></li>
-          <li><a href="./index.html#galeria">Galería</a></li>
-          <li><a href="./contact.html#contact">Contacto</a></li>
-          <li>
-            <a href="https://www.facebook.com/bulldogcoworking" target="_blank">
-              <i class="fa fa-facebook"></i>
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.instagram.com/bulldogcoworking"
-              target="_blank"
-            >
-              <i class="fa fa-instagram"></i>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
-    <div id="main">
-      <h2 id="contactanos">Contactanos</h2>
-      <div id="contact">
-        <div id="map">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13145.42575184575!2d-58.7110978!3d-34.5445296!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6569da41b868e9c5!2sBulldog%20coworking!5e0!3m2!1ses!2sar!4v1631228274721!5m2!1ses!2sar"
-            width="600"
-            height="450"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-          ></iframe>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html"
+                >Inicio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html#planes">Planes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html#servicios">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html#galeria">Galería</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html#contact">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://www.facebook.com/bulldogcoworking"
+                target="_blank"
+              >
+                <i class="fa fa-facebook"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://www.instagram.com/bulldogcoworking"
+                target="_blank"
+              >
+                <i class="fa fa-instagram"></i>
+              </a>
+            </li>
+          </ul>
         </div>
-        <div>
-          <div class="contactInformation">
-            <div>
-              <p>
-                <span
-                  ><ion-icon name="location-outline" size="large"></ion-icon>
-                </span>
-                Sarmiento 1415, San Miguel, Provincia de Buenos Aires
-              </p>
-            </div>
-            <div>
-              <p>
-                <span
-                  ><ion-icon name="mail-unread-outline" size="large"></ion-icon>
-                </span>
-                bulldogcoworking@gmail.com
-              </p>
-            </div>
-            <div>
-              <p>
-                <span
-                  ><ion-icon name="call-outline" size="large"></ion-icon>
-                </span>
-                +54 5589 55488
-              </p>
-            </div>
+      </div>
+    </nav>
+    <div id="main" class="container">
+      <div class="row">
+        <div class="col-12">
+          <h2 id="contactanos">Contactanos</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6">
+          <div id="map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13145.42575184575!2d-58.7110978!3d-34.5445296!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6569da41b868e9c5!2sBulldog%20coworking!5e0!3m2!1ses!2sar!4v1631228274721!5m2!1ses!2sar"
+              width="550"
+              height="400"
+              style="border: 0"
+              allowfullscreen="true"
+              loading="lazy"
+            ></iframe>
           </div>
-
+        </div>
+        <div class="col-6">
+          <p class="contacto">
+            <span
+              ><ion-icon name="location-outline" size="small"></ion-icon>
+            </span>
+            Sarmiento 1415, San Miguel, Provincia de Buenos Aires
+          </p>
+          <p class="contacto">
+            <span
+              ><ion-icon name="mail-unread-outline" size="small"></ion-icon>
+            </span>
+            bulldogcoworking@gmail.com
+          </p>
+          <p class="contacto">
+            <span><ion-icon name="call-outline" size="small"></ion-icon> </span>
+            +54 5589 55488
+          </p>
           <div class="form">
             <form action="" method="post">
-              <div>
-                <div>
-                  <input
-                    type="text"
-                    name="name"
-                    id="name"
-                    placeholder="Nombre completo"
-                    required
-                  />
-                </div>
-                <div>
-                  <input
-                    type="email"
-                    name="email"
-                    id="email"
-                    placeholder="bulldogcoworking@gmail.com"
-                    required
-                  />
-                </div>
+              <div class="mb-3">
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="Nombre completo"
+                  class="form-control form-control-sm"
+                  required
+                />
               </div>
-              <div>
+              <div class="mb-3">
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="tu-email@gmail.com"
+                  class="form-control form-control-sm"
+                  required
+                />
+              </div>
+              <div class="mb-3">
                 <input
                   type="text"
                   name="subject"
                   id="subject"
                   placeholder="Asunto"
+                  class="form-control form-control-sm"
                   required
                 />
               </div>
-              <div>
+              <div class="mb-3">
                 <textarea
                   name="message"
-                  rows="5"
+                  rows="4"
                   placeholder="Mensaje"
+                  class="form-control form-control-sm"
                   required
                 ></textarea>
               </div>
-              <div>
-                <button type="submit" title="Enviar">Enviar</button>
+              <div class="mb-3">
+                <button
+                  type="submit"
+                  class="btn btn-success float-end"
+                  title="Enviar"
+                >
+                  Enviar
+                </button>
               </div>
             </form>
           </div>
