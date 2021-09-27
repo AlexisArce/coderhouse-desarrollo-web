@@ -44,7 +44,7 @@ body {
 }
 
 .content {
-  padding-top: 5em;
+  padding-top: 4em;
   box-sizing: border-box;
   min-height: 95vh;
 }
@@ -82,7 +82,6 @@ h1 {
 }
 
 h2 {
-  margin: 1em;
   color: darkslategray;
   text-align: center;
   font-size: 2em;
@@ -136,10 +135,6 @@ h2 {
   font-size: 0.9em;
 }
 
-#contactanos {
-  padding-top: 0.2em;
-}
-
 #btnSendEmail {
   background-color: darkgreen;
   color: white;
@@ -151,4 +146,9 @@ h2 {
 
 .description {
   text-align: center;
+}
+
+header {
+  padding-top: 3em;
+  padding-bottom: 1em;
 }
