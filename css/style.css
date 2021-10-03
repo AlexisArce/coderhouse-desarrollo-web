@@ -92,10 +92,6 @@ h2 {
 }
 
 #servicios-container {
-  display: grid;
-  grid-template-columns: repeat(5, 20%);
-  grid-template-rows: auto;
-  margin: 3em 3em 5em 6em;
   align-items: center;
   text-align: center;
 }
@@ -103,7 +99,7 @@ h2 {
 .servicio-item {
   height: 100px;
   width: 100px;
-  margin-bottom: 2em;
+  margin: 1em;
 }
 
 .servicio-item img {
