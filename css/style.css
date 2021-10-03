@@ -22,9 +22,15 @@ body {
   box-sizing: border-box;
 }
 
-#mainNav a:hover,
-#mainNav .active > a,
-#mainNav li:hover > a {
+#mainNav a.nav-link {
+  margin-left: 2em;
+}
+
+#mainNav a.social {
+  margin-left: 3em;
+}
+
+#mainNav li:hover > a.nav-link {
   color: black;
   font-weight: 500;
 }
