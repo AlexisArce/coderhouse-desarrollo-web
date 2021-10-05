@@ -49,6 +49,8 @@ function scrollFunction() {
 backToTopbutton.addEventListener("click", backToTop);
 
 function backToTop() {
+  backToTopbutton.style.display = "none";
+
   document.querySelector("#home").scrollIntoView({
     behavior: "smooth",
   });
