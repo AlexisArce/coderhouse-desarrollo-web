@@ -168,6 +168,6 @@ header {
 #btn-back-to-top {
   position: fixed;
   bottom: 20px;
-  right: 20px;
+  right: -5px;
   display: none;
 }
