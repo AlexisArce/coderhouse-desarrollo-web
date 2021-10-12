@@ -4,7 +4,7 @@
   "description": "Proyecto final curso Desarrollo Web",
   "main": "index.js",
   "scripts": {
-    "start": "webpack --watch --config webpack.config.js"
+    "build": "webpack --watch --config webpack.config.js"
   },
   "repository": {
     "type": "git",
