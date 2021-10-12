@@ -19,13 +19,27 @@ module.exports = {
       },
       {
         test: /\.(s(a|c)ss)$/,
-        use: [MiniCssExtractPlugin.loader, "css-loader", "sass-loader"],
+        use: [
+          {
+            loader: MiniCssExtractPlugin.loader,
+            options: {
+              publicPath: "/public/css/",
+            },
+          },
+          "css-loader",
+          "sass-loader",
+        ],
       },
     ],
   },
 
   plugins: [
-    new MiniCssExtractPlugin(),
+    new MiniCssExtractPlugin({
+      // Options similar to the same options in webpackOptions.output
+      // both options are optional
+      filename: path.resolve(__dirname, "public/css/style.css"),
+      chunkFilename: path.resolve(__dirname, "public/css/style.min.css"),
+    }),
     new CopyPlugin({
       patterns: [
         {
@@ -39,10 +53,6 @@ module.exports = {
         {
           from: path.resolve(__dirname, "src/media"),
           to: path.resolve(__dirname, "public/media"),
-        },
-        {
-          from: path.resolve(__dirname, "src/css"),
-          to: path.resolve(__dirname, "public/css"),
         },
       ],
     }),

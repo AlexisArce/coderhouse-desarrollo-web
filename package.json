@@ -4,7 +4,9 @@
   "description": "Proyecto final curso Desarrollo Web",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --watch --config webpack.config.js"
+    "build-prod": "webpack --config webpack.config.js && sass src/css/styles.scss:public/css/styles.min.css --style compressed",
+    "build-js": "webpack --watch --config webpack.config.js",
+    "build-css": "sass --watch src/css/style.scss:public/css/styles.css"
   },
   "repository": {
     "type": "git",
