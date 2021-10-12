@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Espacio de co-working" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./media/images/favicon/favicon-32x32.png"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Bulldog co-working</title>
+  </head>
+  <body>
+    <nav
+      class="navbar fixed-top navbar-expand-lg navbar-light bg-light"
+      id="mainNav"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#home" title="bulldog co-working">
+          <img
+            id="logo"
+            src="./media/images/logo.jpg"
+            alt="bulldog co-working"
+          />
+        </a>
+        <button
+          id="navbar-toggler"
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#planes">Planes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#servicios">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#galeria">Galería</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html#contact">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link social"
+                href="https://www.facebook.com/bulldogcoworking"
+                target="_blank"
+                rel="noopener"
+              >
+                <i class="fa fa-facebook"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link social"
+                href="https://www.instagram.com/bulldogcoworking"
+                target="_blank"
+                rel="noopener"
+              >
+                <i class="fa fa-instagram"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div
+      class="container"
+      data-bs-spy="scroll"
+      data-bs-target="#mainNav"
+      data-bs-offset="0"
+      tabindex="0"
+    >
+      <div id="home" class="row content">
+        <div class="col-md-12">
+          <div id="presentation">
+            <h1 class="fw-bolder">bulldog co-working</h1>
+            <p>¡Hola somos bulldog espacios de oficina!</p>
+            <p>Encontrá tu lugar de trabajo y desarrollá tu negocio</p>
+            <p>Full amenities</p>
+            <p>San Miguel centro</p>
+            <p>Lunes a viernes 9-18 hs.</p>
+          </div>
+        </div>
+      </div>
+      <div id="planes" class="row content">
+        <div class="col-md-12">
+          <div class="container">
+            <header>
+              <h2 class="fw-bolder">Planes</h2>
+            </header>
+            <div class="description">
+              <p>
+                Mediante nuestra propuesta integral de valor, las empresas
+                encuentran el complemento perfecto a la necesidad de espacios
+                físicos y a las soluciones de trabajo remoto, para optimizar al
+                100% la necesidad de espacios y el uso de sus oficinas
+                flexibles.
+              </p>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div id="card-plan-corporate" class="card">
+                  <img
+                    src="./media/images/planes_corporate.webp"
+                    class="card-img-top"
+                    alt="plan Corporate"
+                  />
+                  <div class="card-body">
+                    <h3 class="card-title">Corporativo</h3>
+                    <p class="card-text">
+                      Accedé a un espacio de trabajo propio, diseñado a medida
+                      exclusivamente para tu empresa y su marca, con
+                      flexibilidad de contratación y sin inversión inicial.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div id="card-plan-oficina" class="card">
+                  <img
+                    src="./media/images/planes_oficina.webp"
+                    class="card-img-top"
+                    alt="plan Oficina"
+                  />
+                  <div class="card-body">
+                    <h3 class="card-title">Emprendedor</h3>
+                    <p class="card-text">
+                      Accedé a oficinas de diversos tamaños por plazos breves,
+                      permitiendo la expansión y contracción de estructuras de
+                      un modo ágil, pagando sólo por las posiciones en uso.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div id="card-plan-go" class="card">
+                  <img
+                    src="./media/images/planes_hitandgo.webp"
+                    class="card-img-top"
+                    alt="plan Go"
+                  />
+                  <div class="card-body">
+                    <h3 class="card-title">Oficinas en CABA</h3>
+                    <p class="card-text">
+                      Ofrecé a tus colaboradores acceso a todas las sucursales
+                      de CABA para que puedan trabajar desde el bulldog más
+                      cercano a su casa.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div id="card-plan-en-casa" class="card">
+                  <img
+                    src="./media/images/planes_encasa.webp"
+                    class="card-img-top"
+                    alt="plan en Casa"
+                  />
+                  <div class="card-body">
+                    <h3 class="card-title">
+                      Trabajá desde tu hogar con la comodidad de la oficina
+                    </h3>
+                    <p class="card-text">
+                      Acercamos una silla ergonómica y los servicios de la
+                      oficina a la casa de tus colaboradores, mejorando la
+                      experiencia de trabajo remoto.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="servicios" class="row content">
+        <div class="col-md-12">
+          <header>
+            <h2 class="fw-bolder">Servicios incluídos en las membresías</h2>
+          </header>
+          <div id="servicios-container" class="container">
+            <div class="row align-items-center description-servicios">
+              <div class="col">
+                <p>
+                  En Bulldog co-working espacio y servicios se integran para
+                  brindar una propuesta enfocada en el bienestar laboral
+                  mediante espacios que invitan e inspiran al progreso.
+                </p>
+              </div>
+            </div>
+            <div class="row row-cols-md-5 row-cols-2 justify-content-center">
+              <div class="col servicio-item">
+                <img
+                  loading="lazy"
+                  src="./media/images/servicios/2 Acceso 24-7.webp"
+                  alt="Acceso 24/7"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="top"
+                  title="Acceso 24/7"
+                  class="img-thumbnail rounded"
+                /><span>Acceso 24/7</span>
+              </div>
+              <div class="col servicio-item">
+                <img
+                  loading="lazy"
+                  src="./media/images/servicios/3 Front desk 8 - 19.webp"
+                  alt="Front desk de 8hs. - 19hs."
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="top"
+                  title="Front desk de 8hs. - 19hs."
+                  class="img-thumbnail rounded"
+                /><span>Front desk de 8hs. - 19hs.</span>
+              </div>
+              <div class="col servicio-item">
+                <img
+                  loading="lazy"
+                  src="./media/images/servicios/4 Salas y auditorios.webp"
+                  alt="Salas y auditorios"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="top"
+                  title="Salas y auditorios"
+                  class="img-thumbnail rounded"
+                /><span>Salas y auditorios</span>
+              </div>
+              <div class="col servicio-item">
+                <img
+                  loading="lazy"
+                  src="./media/images/servicios/5 Espacios para bicis.webp"
+                  alt="Espacios para bicis"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="top"
+                  title="Espacios para bicis"
+                  class="img-thumbnail rounded"
+                /><span>Espacios para bicis</span>
+              </div>
+              <div class="col servicio-item">
+                <img
+                  loading="lazy"
+                  src="./media/images/servicios/6 Descuentos y beneficios.webp"
+                  alt="Descuentos y beneficios"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="top"
+                  title="Descuentos y beneficios"
+                  class="img-thumbnail rounded"
+                /><span>Descuentos y beneficios</span>
+              </div>
+            </div>
+            <div class="row row-cols-md-5 row-cols-2 justify-content-center">
+              <div class="col servicio-item">
+                <img
+                  loading="lazy"
+                  src="./media/images/servicios/7 Centro de impresiones.webp"
+                  alt="Centro de impresiones"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="top"
+                  title="Centro de impresiones"
+                  class="img-thumbnail rounded"
+                /><span>Centro de impresiones</span>
+              </div>
+              <div class="col servicio-item">
+                <img
+                  loading="lazy"
+                  src="./media/images/servicios/8 Workcafes.webp"
+                  alt="Workcafes"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="top"
+                  title="Workcafes"
+                  class="img-thumbnail rounded"
+                /><span>Workcafes</span>
+              </div>
+              <div class="col servicio-item">
+                <img
+                  loading="lazy"
+                  src="./media/images/servicios/9 Telefonia.webp"
+                  alt="Telefonía"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="top"
+                  title="Telefonía"
+                  class="img-thumbnail rounded"
+                /><span>Telefonía</span>
+              </div>
+              <div class="col servicio-item">
+                <img
+                  loading="lazy"
+                  src="./media/images/servicios/17 Recepcion de correspondencia.webp"
+                  alt="Recepción de correspondencia"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="top"
+                  title="Recepción de correspondencia"
+                  class="img-thumbnail rounded"
+                /><span>Recepción de correspondencia</span>
+              </div>
+              <div class="col servicio-item">
+                <img
+                  loading="lazy"
+                  src="./media/images/servicios/11 WIFI.webp"
+                  alt="WIFI e Internet por cable"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="top"
+                  title="WIFI e Internet por cable"
+                  class="img-thumbnail rounded"
+                /><span>WIFI e Internet por cable</span>
+              </div>
+            </div>
+            <div class="row row-cols-md-5 row-cols-2 justify-content-center">
+              <div class="col servicio-item">
+                <img
+                  loading="lazy"
+                  src="./media/images/servicios/12 Parking.webp"
+                  alt="Parking"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="top"
+                  title="Parking"
+                  class="img-thumbnail rounded"
+                /><span>Parking</span>
+              </div>
+              <div class="col servicio-item">
+                <img
+                  loading="lazy"
+                  src="./media/images/servicios/13 Afters y eventos.webp"
+                  alt="Afters y eventos"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="top"
+                  title="Afters y eventos"
+                  class="img-thumbnail rounded"
+                /><span>Afters y eventos</span>
+              </div>
+              <div class="col servicio-item">
+                <img
+                  loading="lazy"
+                  src="./media/images/servicios/14 Networking.webp"
+                  alt="Networking"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="top"
+                  title="Networking"
+                  class="img-thumbnail rounded"
+                /><span>Networking</span>
+              </div>
+              <div class="col servicio-item">
+                <img
+                  loading="lazy"
+                  src="./media/images/servicios/15 Infusiones y snacks.webp"
+                  alt="Infusiones y snacks"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="top"
+                  title="Infusiones y snacks"
+                  class="img-thumbnail rounded"
+                /><span>Infusiones y snacks</span>
+              </div>
+              <div class="col servicio-item">
+                <img
+                  loading="lazy"
+                  src="./media/images/servicios/10 Lockers.webp"
+                  alt="Lockers"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="top"
+                  title="Lockers"
+                  class="img-thumbnail rounded"
+                /><span>Lockers</span>
+              </div>
+            </div>
+            <div class="row align-items-center description-servicios">
+              <div class="col">
+                <p>
+                  Creamos espacios de trabajo que estimulan el bienestar y
+                  desarrollo diario de las personas.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="galeria" class="row content">
+        <div class="col-md-12">
+          <header><h2 class="fw-bolder">Galería de fotos</h2></header>
+          <div id="galeria-container" class="container">
+            <div class="row row-cols-md-4 row-cols-1 justify-content-center">
+              <div class="col galeria-item">
+                <img
+                  loading="lazy"
+                  src="./media/images/galeria/1.jpg"
+                  alt="Foto 1 de la galería (barra)"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="bottom"
+                  title="Barra"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="col galeria-item">
+                <img
+                  loading="lazy"
+                  src="./media/images/galeria/2.jpg"
+                  alt="Foto 2 de la galería (Espacio Café 1)"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="bottom"
+                  title="Espacio Café 1"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="col galeria-item">
+                <img
+                  loading="lazy"
+                  src="./media/images/galeria/3.jpg"
+                  alt="Foto 3 de la galería (isla 1)"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="bottom"
+                  title="Isla 1"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="col galeria-item">
+                <img
+                  loading="lazy"
+                  src="./media/images/galeria/17.jpg"
+                  alt="Foto 4 de la galería (isla 2)"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="bottom"
+                  title="Isla 2"
+                  class="img-fluid"
+                />
+              </div>
+            </div>
+            <div class="row row-cols-md-4 row-cols-1 justify-content-center">
+              <div class="col galeria-item">
+                <img
+                  loading="lazy"
+                  src="./media/images/galeria/11.jpg"
+                  alt="Foto 5 de la galería (Espacio Café 2)"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="bottom"
+                  title="Espacio Café 2"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="col galeria-item">
+                <img
+                  loading="lazy"
+                  src="./media/images/galeria/6.jpg"
+                  alt="Foto 6 de la galería (Sala de reuniones)"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="bottom"
+                  title="Sala de reuniones"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="col galeria-item">
+                <img
+                  loading="lazy"
+                  src="./media/images/galeria/7.jpg"
+                  alt="Foto 7 de la galería (isla 3)"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="bottom"
+                  title="Isla 3"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="col galeria-item">
+                <img
+                  loading="lazy"
+                  src="./media/images/galeria/8.jpg"
+                  alt="Foto 8 de la galería (isla 4)"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="bottom"
+                  title="Isla 4"
+                  class="img-fluid"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="footer" class="row">
+        <ul>
+          <li>
+            <a
+              href="https://www.facebook.com/bulldogcoworking"
+              target="_blank"
+              rel="noopener"
+            >
+              <i class="fa fa-facebook"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/bulldogcoworking"
+              target="_blank"
+              rel="noopener"
+            >
+              <i class="fa fa-instagram"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- Back to top button -->
+    <button type="button" class="btn btn-floating btn-lg" id="btn-back-to-top">
+      <i class="fas fa-chevron-up"></i>
+    </button>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/63a845fea5.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/bundle.min.js"></script>
+  </body>
+</html>
