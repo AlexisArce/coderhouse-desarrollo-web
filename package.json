@@ -1,0 +1,31 @@
+{
+  "name": "coderhouse-desarrollo-web",
+  "version": "1.0.0",
+  "description": "Proyecto final curso Desarrollo Web",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --watch --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexisArce/coderhouse-desarrollo-web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexisArce/coderhouse-desarrollo-web/issues"
+  },
+  "homepage": "https://github.com/AlexisArce/coderhouse-desarrollo-web#readme",
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "babel-loader": "^8.2.2",
+    "node-sass": "4.9",
+    "nodemon": "^2.0.13",
+    "nodemon-webpack-plugin": "^4.5.2",
+    "webpack": "^5.58.1",
+    "webpack-cli": "^4.9.0",
+    "webpack-node-externals": "^3.0.0"
+  }
+}
