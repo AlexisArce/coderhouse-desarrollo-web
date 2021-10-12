@@ -84,14 +84,12 @@ body {
 }
 
 h1 {
-  font-size: 3em;
   padding-top: 2em;
 }
 
 h2 {
   color: darkslategray;
   text-align: center;
-  font-size: 2em;
 }
 
 #main {
