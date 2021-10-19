@@ -8,6 +8,15 @@ $radius: 0.25rem;
 $light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 $dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 
+@mixin alignItems($value: center) {
+  align-items: $value;
+  text-align: $value;
+}
+
+%width-100 {
+  width: 100%;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -68,7 +77,7 @@ body {
 }
 
 #presentation {
-  @include alignItems;
+  @include alignItems($value: center);
   width: 96%;
   height: 100%;
   position: absolute;
@@ -89,8 +98,8 @@ h2 {
 }
 
 #servicios-container {
-  @include alignItems();
-  width: 100%;
+  @include alignItems($value: center);
+  @extend %width-100;
 }
 
 .servicio-item {
@@ -108,14 +117,14 @@ h2 {
 }
 
 #galeria-container {
-  width: 100%;
+  @extend %width-100;
 }
 
 .galeria-item {
   margin-bottom: 1.5em;
   img {
     height: 400px;
-    width: 100%;
+    @extend %width-100;
     background-color: black;
     opacity: 80%;
   }
@@ -171,7 +180,7 @@ header {
 }
 
 #footer {
-  @include alignItems;
+  @include alignItems($value: center);
   list-style: none;
   padding: 1em;
   margin: 3em 0 1em 0;
@@ -186,9 +195,4 @@ header {
       }
     }
   }
-}
-
-@mixin alignItems($value: center) {
-  align-items: $value;
-  text-align: $value;
 }
