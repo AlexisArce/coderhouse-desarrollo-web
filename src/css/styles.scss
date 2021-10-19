@@ -68,8 +68,7 @@ body {
 }
 
 #presentation {
-  align-items: center;
-  text-align: center;
+  @include alignItems;
   width: 96%;
   height: 100%;
   position: absolute;
@@ -90,8 +89,7 @@ h2 {
 }
 
 #servicios-container {
-  align-items: center;
-  text-align: center;
+  @include alignItems();
   width: 100%;
 }
 
@@ -173,8 +171,7 @@ header {
 }
 
 #footer {
-  align-items: center;
-  text-align: center;
+  @include alignItems;
   list-style: none;
   padding: 1em;
   margin: 3em 0 1em 0;
@@ -189,4 +186,9 @@ header {
       }
     }
   }
+}
+
+@mixin alignItems($value: center) {
+  align-items: $value;
+  text-align: $value;
 }
